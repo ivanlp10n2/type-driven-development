@@ -1,6 +1,6 @@
 package ar.empanada
 
-object Exercise3 extends App {
+object MistyOps extends App {
   // show Additional Misty functions
   trait Misty[F[_]] {
     def banana[A, B](fa: F[A])(f: A => F[B]): F[B]

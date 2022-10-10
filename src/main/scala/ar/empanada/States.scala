@@ -1,6 +1,6 @@
 package ar.empanada
 
-object Exercise4 extends App {
+object States extends App {
   // show State instances for Fluffy and Misty
   trait Misty[F[_]] {
     def banana[A, B](fa: F[A])(f: A => F[B]): F[B]

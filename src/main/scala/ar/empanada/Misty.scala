@@ -1,6 +1,6 @@
 package ar.empanada
 
-object Exercise2 extends App {
+object Misty extends App {
   // show Misty instances
   trait Misty[F[_]] {
     def banana[A, B](fa: F[A])(f: A => F[B]): F[B]

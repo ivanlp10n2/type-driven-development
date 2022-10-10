@@ -2,7 +2,7 @@ package ar.empanada
 
 import cats.effect.IO
 
-object Exercise1 extends App {
+object Fluffy extends App {
 // show Fluffy instances
   trait Fluffy[F[_]] {
     def furry[A, B](fa: F[A])(f: A => B): F[B]
